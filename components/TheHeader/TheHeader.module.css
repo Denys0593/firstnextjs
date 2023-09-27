@@ -1,0 +1,51 @@
+.wrapper {
+    display: flex;
+    padding: 1.5rem 40%;
+    justify-content: space-between;
+}
+
+.wrapper a {
+    color: #ffffff;
+    text-decoration: none;
+    
+}
+
+.wrapper .active {
+  color: #000;
+  font-size: 20px;
+  font-weight: bold;
+}
+
+.wrapper a:hover {
+    color: #889ad4;
+    animation: show 0.3s ease;
+    animation-iteration-count: 1;
+}
+
+@keyframes show {
+    15% {
+        -webkit-transform: translateX(9px);
+        transform: translateX(9px);
+      }
+      30% {
+        -webkit-transform: translateX(-9px);
+        transform: translateX(-9px);
+      }
+      40% {
+        -webkit-transform: translateX(6px);
+        transform: translateX(6px);
+      }
+      50% {
+        -webkit-transform: translateX(-6px);
+        transform: translateX(-6px);
+      }
+      65% {
+        -webkit-transform: translateX(3px);
+        transform: translateX(3px);
+      }
+      100% {
+        -webkit-transform: translateX(0);
+        transform: translateX(0);
+      }
+}
+

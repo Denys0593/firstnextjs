@@ -1,0 +1,19 @@
+.butt {
+    margin-top: 20px;
+    padding: 10px 15px;
+    border: none;
+    background-color: #6fb3f5;
+    border-radius: 20px;
+    cursor: pointer;
+}
+
+.butt:hover{
+    background-color: #225b94;
+}
+
+.link {
+    color: #fff;
+    text-decoration: none;
+    font-weight: 700;
+    font-size: 16px;
+}
